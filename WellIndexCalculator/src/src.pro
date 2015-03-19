@@ -11,10 +11,12 @@ TEMPLATE = lib
 
 DEFINES += SRC_LIBRARY
 
-SOURCES += src.cpp
+SOURCES += src.cpp \
+    fileio.cpp
 
 HEADERS += src.h\
-        src_global.h
+        src_global.h \
+    fileio.h
 
 unix {
     target.path = /usr/lib
