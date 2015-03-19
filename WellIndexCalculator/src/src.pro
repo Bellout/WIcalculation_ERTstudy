@@ -12,11 +12,19 @@ TEMPLATE = lib
 DEFINES += SRC_LIBRARY
 
 SOURCES += src.cpp \
-    fileio.cpp
+    Cell.cpp \
+    Coordinate.cpp \
+    Fileio.cpp \
+    Plane.cpp \
+    Reservoir.cpp
 
 HEADERS += src.h\
         src_global.h \
-    fileio.h
+    Fileio.h \
+    Plane.h \
+    Reservoir.h \
+    Coordinate.h \
+    Cell.h
 
 unix {
     target.path = /usr/lib

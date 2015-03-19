@@ -1,10 +1,13 @@
 #ifndef FILEIO_H
 #define FILEIO_H
 
-class fileio
+class Fileio
 {
 public:
-    fileio();
+    Fileio();
+
+private:
+
 };
 
 #endif // FILEIO_H
