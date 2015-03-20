@@ -21,13 +21,13 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <ert/util/size_t_vector.h>
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/size_t_vector.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_util.h>
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_file_kw.h>
-#include <ert/ecl/fortio.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_file_kw.h>
+#include <../include/libecl_ert/headers/fortio.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
 /*
   This file implements the datatype ecl_file_kw which is used to hold

@@ -25,8 +25,8 @@ extern "C" {
 
 #include <time.h>
 
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
 
 
   typedef struct {

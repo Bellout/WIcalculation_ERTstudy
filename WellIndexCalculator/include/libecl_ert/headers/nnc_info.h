@@ -23,10 +23,10 @@
 extern "C" {
 #endif
   
-#include <ert/util/int_vector.h>  
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/ecl/nnc_vector.h>
+#include <../include/libecl_ert/headers/nnc_vector.h>
 
   typedef struct nnc_info_struct nnc_info_type; 
   

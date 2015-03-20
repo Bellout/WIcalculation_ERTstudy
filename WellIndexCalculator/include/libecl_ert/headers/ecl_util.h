@@ -24,9 +24,9 @@ extern "C" {
 #include <stdbool.h>
 #include <time.h>
 
-#include <ert/util/stringlist.h>
-#include <ert/util/time_t_vector.h>
-#include <ert/util/parser.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/time_t_vector.h>
+#include <../include/libertutil_ert/headers/parser.h>
   
 
 typedef enum { ECL_OTHER_FILE           = 0   , 

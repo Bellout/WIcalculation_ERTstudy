@@ -18,7 +18,7 @@
 
 #ifndef __PARSER_H__
 #define __PARSER_H__
-#include <ert/util/stringlist.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
 
 typedef struct basic_parser_struct basic_parser_type;
 

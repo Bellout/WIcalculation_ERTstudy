@@ -25,10 +25,10 @@ extern "C" {
 
 #include <stdbool.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/fortio.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/fortio.h>
 
 typedef struct ecl_file_kw_struct ecl_file_kw_type;
 typedef struct inv_map_struct inv_map_type;

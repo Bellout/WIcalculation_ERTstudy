@@ -22,7 +22,7 @@
 extern "C" {
 #endif
 
-#include <ert/ecl/ecl_grid.h>
+#include <../include/libecl_ert/headers/ecl_grid.h>
 
 
 typedef struct ecl_box_struct ecl_box_type;

@@ -27,10 +27,10 @@ extern "C" {
 #include <time.h>
 
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_file_kw.h>
-#include <ert/ecl/fortio.h>
-#include <ert/ecl/ecl_util.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_file_kw.h>
+#include <../include/libecl_ert/headers/fortio.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
   typedef enum {
     ECL_FILE_CLOSE_STREAM  =  1 ,  /* 

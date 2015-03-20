@@ -28,7 +28,7 @@ extern "C" {
 #include <string.h>
 #include <time.h>
 
-#include <ert/util/ssize_t.h>
+#include <../include/libertutil_ert/headers/ssize_t.h>
 
 
   typedef struct     buffer_struct buffer_type;

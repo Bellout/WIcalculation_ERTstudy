@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
 
 /*****************************************************************/

@@ -23,8 +23,8 @@
 extern "C" {
 #endif
   
-#include <ert/util/int_vector.h>  
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
   typedef struct nnc_vector_struct nnc_vector_type; 
   

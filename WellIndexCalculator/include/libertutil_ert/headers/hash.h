@@ -24,9 +24,9 @@ extern"C" {
 
 #include <stdlib.h>
 
-#include <ert/util/stringlist.h>
-#include <ert/util/type_macros.h>
-#include <ert/util/node_data.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/node_data.h>
 
 typedef struct hash_struct      hash_type;
 typedef struct hash_iter_struct hash_iter_type;

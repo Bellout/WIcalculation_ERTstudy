@@ -23,14 +23,14 @@ extern "C" {
 #endif
 #include <stdbool.h>
 
-#include <ert/util/double_vector.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/stringlist.h>
+#include "../include/libertutil_ert/headers/double_vector.h"
+#include "../include/libertutil_ert/headers/int_vector.h"
+#include "../include/libertutil_ert/headers/stringlist.h"
 
-#include <ert/ecl/ecl_coarse_cell.h>
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/grid_dims.h>
-#include <ert/ecl/nnc_info.h>
+#include "../include/libecl_ert/headers/ecl_coarse_cell.h"
+#include "../include/libecl_ert/headers/ecl_kw.h"
+#include "../include/libecl_ert/headers/grid_dims.h"
+#include "../include/libecl_ert/headers/nnc_info.h"
 
 #define ECL_GRID_GLOBAL_GRID   "Global"  // used as key in hash tables over grids.
 #define  ECL_GRID_MAINGRID_LGR_NR 0

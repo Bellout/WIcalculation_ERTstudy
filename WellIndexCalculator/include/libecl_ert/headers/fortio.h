@@ -26,8 +26,8 @@ extern "C" {
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
 typedef enum {
   FORTIO_NOENTRY         = 0,    /* File does not exists at all - application error. */

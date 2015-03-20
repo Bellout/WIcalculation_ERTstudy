@@ -25,7 +25,7 @@ extern "C" {
 
 #include <stdbool.h>
 
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
   typedef struct geo_polygon_struct geo_polygon_type;
   

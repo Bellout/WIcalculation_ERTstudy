@@ -25,11 +25,11 @@ extern "C" {
 #include <stdlib.h>
 #include <stdio.h>
 
-#include <ert/util/buffer.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/buffer.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/ecl/fortio.h>
-#include <ert/ecl/ecl_util.h>
+#include <../include/libecl_ert/headers/fortio.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
   UTIL_IS_INSTANCE_HEADER(ecl_kw);
 
@@ -227,7 +227,7 @@ extern "C" {
   ECL_KW_MAX_MIN_HEADER( double );
 #undef ECL_KW_MAX_MIN_HEADER
   
-#include <ert/ecl/ecl_kw_grdecl.h>
+#include <../include/libecl_ert/headers/ecl_kw_grdecl.h>
   
 #ifdef __cplusplus
 }
