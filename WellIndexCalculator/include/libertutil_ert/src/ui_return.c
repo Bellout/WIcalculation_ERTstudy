@@ -23,10 +23,10 @@
 */
 #include <stdlib.h>
 
-#include <ert/util/type_macros.h>
-#include <ert/util/util.h>
-#include <ert/util/ui_return.h>
-#include <ert/util/stringlist.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/ui_return.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
 
 
 #define UI_RETURN_TYPE_ID 6122209

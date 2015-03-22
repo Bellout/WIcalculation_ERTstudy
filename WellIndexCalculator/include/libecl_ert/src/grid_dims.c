@@ -18,9 +18,9 @@
 
 #include <stdlib.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/grid_dims.h>
+#include "../include/libecl_ert/headers/grid_dims.h"
 
 
 void grid_dims_init( grid_dims_type * dims , int nx, int ny , int nz , int nactive) {

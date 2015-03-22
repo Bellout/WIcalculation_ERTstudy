@@ -22,7 +22,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include <ert/util/double_vector.h>
+#include "../include/libertutil_ert/headers/double_vector.h"
 
 double      statistics_std( const double_vector_type * data_vector );
 double      statistics_mean( const double_vector_type * data_vector );

@@ -16,15 +16,15 @@
    for more details. 
 */
 
-#include <ert/util/type_macros.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
+#include <../include/libertutil_ert/headers/vector.h>
 
-#include <ert/ecl/ecl_grid.h>
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/fault_block_layer.h>
-#include <ert/ecl/layer.h>
+#include <../include/libecl_ert/headers/ecl_grid.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/fault_block_layer.h>
+#include <../include/libecl_ert/headers/layer.h>
 
 #define FAULT_BLOCK_LAYER_ID 2297476
 

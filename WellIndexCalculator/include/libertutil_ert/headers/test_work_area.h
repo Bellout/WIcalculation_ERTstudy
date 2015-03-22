@@ -26,7 +26,7 @@ extern "C" {
 
 #include <stdbool.h>
 
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
   typedef struct test_work_area_struct test_work_area_type;
 

@@ -18,24 +18,23 @@
 
 #include <string.h>
 
-#include <ert/util/util.h>
-#include <ert/util/vector.h>
-#include <ert/util/time_t_vector.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/stringlist.h>
-#include <ert/util/time_interval.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/time_t_vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/time_interval.h>
 
-#include <ert/ecl/ecl_util.h>
-#include <ert/ecl/ecl_smspec.h>
-#include <ert/ecl/ecl_sum_data.h>
-#include <ert/ecl/ecl_sum_tstep.h>
-#include <ert/ecl/smspec_node.h>
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_endian_flip.h>
-#include <ert/ecl/ecl_kw_magic.h>
-#include <ert/ecl/ecl_sum_vector.h>
-
+#include <../include/libecl_ert/headers/ecl_util.h>
+#include <../include/libecl_ert/headers/ecl_smspec.h>
+#include <../include/libecl_ert/headers/ecl_sum_data.h>
+#include <../include/libecl_ert/headers/ecl_sum_tstep.h>
+#include <../include/libecl_ert/headers/smspec_node.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_endian_flip.h>
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
+#include <../include/libecl_ert/headers/ecl_sum_vector.h>
 
 
 /*

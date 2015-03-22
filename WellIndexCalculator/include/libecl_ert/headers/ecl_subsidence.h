@@ -23,9 +23,9 @@
 extern "C" {
 #endif
 
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_grid.h>
-#include <ert/ecl/ecl_region.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_grid.h>
+#include <../include/libecl_ert/headers/ecl_region.h>
 
   typedef struct ecl_subsidence_struct            ecl_subsidence_type;
   typedef struct ecl_subsidence_survey_struct     ecl_subsidence_survey_type;

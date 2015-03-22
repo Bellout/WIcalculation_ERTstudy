@@ -20,14 +20,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <ert/util/util.h>
-#include <ert/util/hash.h>
-#include <ert/util/vector.h>
-#include <ert/util/node_data.h>
-#include <ert/util/buffer.h>
-#include <ert/util/subst_list.h>
-#include <ert/util/subst_func.h>
-#include <ert/util/parser.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/node_data.h>
+#include <../include/libertutil_ert/headers/buffer.h>
+#include <../include/libertutil_ert/headers/subst_list.h>
+#include <../include/libertutil_ert/headers/subst_func.h>
+#include <../include/libertutil_ert/headers/parser.h>
 
 /**
    This file implements a small support struct for search-replace

@@ -22,10 +22,10 @@
 #include <string.h>
 #include <errno.h>
 
-#include <ert/util/util.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/ecl/fortio.h>
+#include <../include/libecl_ert/headers/fortio.h>
 
 
 #define FORTIO_ID  345116

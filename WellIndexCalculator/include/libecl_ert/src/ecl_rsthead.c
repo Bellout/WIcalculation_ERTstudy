@@ -17,12 +17,12 @@
 */
 #include <stdlib.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_rsthead.h>
-#include <ert/ecl/ecl_kw_magic.h>
+#include <../include/libecl_ert/headers/ecl_file_kw.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_rsthead.h>
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
 
 
 static time_t rsthead_date( int day , int month , int year) {

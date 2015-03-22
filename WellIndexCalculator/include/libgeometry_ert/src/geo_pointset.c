@@ -21,9 +21,9 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/geometry/geo_pointset.h>
+#include <../include/libgeometry_ert/headers/geo_pointset.h>
 
 
 #define INIT_SIZE 256

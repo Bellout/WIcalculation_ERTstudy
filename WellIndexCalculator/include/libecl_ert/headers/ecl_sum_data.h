@@ -26,14 +26,14 @@ extern "C" {
 #include <stdlib.h>
 #include <time.h>
 
-#include <ert/util/time_t_vector.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/stringlist.h>
-#include <ert/util/time_interval.h>
+#include <../include/libertutil_ert/headers/time_t_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/time_interval.h>
 
-#include <ert/ecl/ecl_sum_tstep.h>
-#include <ert/ecl/smspec_node.h>
-#include <ert/ecl/ecl_sum_vector.h>
+#include <../include/libecl_ert/headers/ecl_sum_tstep.h>
+#include <../include/libecl_ert/headers/smspec_node.h>
+#include <../include/libecl_ert/headers/ecl_sum_vector.h>
 
 typedef struct ecl_sum_data_struct ecl_sum_data_type ; 
   void                     ecl_sum_data_fwrite_step( const ecl_sum_data_type * data , const char * ecl_case , bool fmt_case , bool unified, int report_step);

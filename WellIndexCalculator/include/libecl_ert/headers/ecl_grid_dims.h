@@ -22,7 +22,7 @@
 extern "C" {
 #endif
 
-#include <ert/ecl/grid_dims.h>
+#include <../include/libecl_ert/headers/grid_dims.h>
 
   typedef struct ecl_grid_dims_struct ecl_grid_dims_type;
   

@@ -19,9 +19,9 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include <ert/util/util.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/lookup_table.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
+#include <../include/libertutil_ert/headers/lookup_table.h>
 
 struct lookup_table_struct {
   bool                 data_owner; 

@@ -20,7 +20,7 @@
 #define __MATRIX_BLAS__
 #include <stdbool.h>
 
-#include <ert/util/matrix.h>
+#include <../include/libertutil_ert/headers/matrix.h>
 
 
 #ifdef __cplusplus

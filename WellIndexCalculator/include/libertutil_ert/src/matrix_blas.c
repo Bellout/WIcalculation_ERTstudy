@@ -18,9 +18,9 @@
 
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/matrix.h>
-#include <ert/util/matrix_blas.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/matrix.h>
+#include <../include/libertutil_ert/headers/matrix_blas.h>
 
 #ifdef __cplusplus
 extern "C" {

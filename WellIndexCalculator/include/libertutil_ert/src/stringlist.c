@@ -23,14 +23,13 @@
 #ifdef HAVE_GLOB
 #include <glob.h>
 #else
-#include <Windows.h>
+//#include <Windows.h>
 #endif
 
-#include <ert/util/util.h>
-#include <ert/util/stringlist.h>
-#include <ert/util/vector.h>
-#include <ert/util/buffer.h>
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/buffer.h>
 
 #define STRINGLIST_TYPE_ID 671855
 
@@ -751,22 +750,22 @@ int stringlist_select_matching_files(stringlist_type * names , const char * path
   return match_count;
 #else
   {
-    WIN32_FIND_DATA file_data;
-    HANDLE          file_handle;
-    char * pattern  = util_alloc_filename( path , file_pattern , NULL );
+//    WIN32_FIND_DATA file_data;
+//    HANDLE          file_handle;
+//    char * pattern  = util_alloc_filename( path , file_pattern , NULL );
     
-    stringlist_clear( names );
-    file_handle = FindFirstFile( pattern , &file_data );
-    if (file_handle != INVALID_HANDLE_VALUE) {
-      do {
-        char * full_path = util_alloc_filename( path , file_data.cFileName , NULL);
-        stringlist_append_owned_ref( names , full_path );
-      } while (FindNextFile( file_handle , &file_data) != 0);
-    }
-    FindClose( file_handle );
-    free( pattern );
+//    stringlist_clear( names );
+//    file_handle = FindFirstFile( pattern , &file_data );
+//    if (file_handle != INVALID_HANDLE_VALUE) {
+//      do {
+//        char * full_path = util_alloc_filename( path , file_data.cFileName , NULL);
+//        stringlist_append_owned_ref( names , full_path );
+//      } while (FindNextFile( file_handle , &file_data) != 0);
+//    }
+//    FindClose( file_handle );
+//    free( pattern );
     
-    return stringlist_get_size( names );
+//    return stringlist_get_size( names );
   }
 #endif
 }

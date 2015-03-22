@@ -16,10 +16,10 @@
    for more details. 
 */
 
-#include <ecl_kw.h>
-#include <ecl_block.h>
-#include <ecl_fstate.h>
-#include <ecl_sum_file.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+//#include <../include/libertutil_ert/headers/ecl_block.h>
+//#include <../include/libecl_ert/headers/ecl_fstate.h>
+//#include <../include/libecl_ert/headers/ecl_sum_file.h>
 
 struct ecl_sum_struct {
 

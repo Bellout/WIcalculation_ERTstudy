@@ -23,16 +23,16 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#include <ert/util/util.h>
-#include <ert/util/hash.h>
-#include <ert/util/vector.h>
-#include <ert/util/int_vector.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_kw_magic.h>
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_rft_node.h>
-#include <ert/ecl/ecl_rft_cell.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_rft_node.h>
+#include <../include/libecl_ert/headers/ecl_rft_cell.h>
 
 
 /**

@@ -68,8 +68,8 @@
 #ifdef HAVE_FNMATCH
 #include <fnmatch.h>
 #else
-#include <Windows.h>
-#include <Shlwapi.h>
+//#include <Windows.h>
+//#include <Shlwapi.h>
 #endif
 
 #ifdef HAVE_FORK
@@ -93,7 +93,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #else
-#include <io.h>
+//#include <io.h>
 #endif
 
 
@@ -106,8 +106,8 @@
 #error "Could not determine if this is a 32 bit or 64 bit computer?"
 #endif
 
-#include <ert/util/util.h>
-#include <ert/util/buffer.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/buffer.h>
 
 
 /*

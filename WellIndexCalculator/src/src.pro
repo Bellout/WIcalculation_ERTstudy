@@ -107,7 +107,7 @@ SOURCES += src.cpp \
     ../include/libertutil_ert/src/util_abort_simple.c \
     ../include/libertutil_ert/src/util_abort_test.c \
     ../include/libertutil_ert/src/util_chdir.c \
-    ../include/libertutil_ert/src/util_endian.c \
+#    ../include/libertutil_ert/src/util_endian.c \
     ../include/libertutil_ert/src/util_env.c \
     ../include/libertutil_ert/src/util_fork.c \
     ../include/libertutil_ert/src/util_getuid.c \
@@ -118,7 +118,7 @@ SOURCES += src.cpp \
     ../include/libertutil_ert/src/util_symlink.c \
     ../include/libertutil_ert/src/util_zlib.c \
     ../include/libertutil_ert/src/vector.c \
-    ../include/libertutil_ert/src/vector_template.c \
+#    ../include/libertutil_ert/src/vector_template.c \
     ../include/libertutil_ert/src/version.c \
     ../include/libgeometry_ert/src/geo_pointset.c \
     ../include/libgeometry_ert/src/geo_polygon.c \
@@ -219,10 +219,10 @@ HEADERS += src.h\
     ../include/libertutil_ert/headers/type_macros.h \
     ../include/libertutil_ert/headers/type_vector_functions.h \
     ../include/libertutil_ert/headers/util.h \
-    ../include/libertutil_ert/headers/util_endian.h \
+#    ../include/libertutil_ert/headers/util_endian.h \
     ../include/libertutil_ert/headers/util_env.h \
     ../include/libertutil_ert/headers/vector.h \
-    ../include/libertutil_ert/headers/vector_template.h \
+#    ../include/libertutil_ert/headers/vector_template.h \
     ../include/libgeometry_ert/headers/geo_pointset.h \
     ../include/libgeometry_ert/headers/geo_polygon.h \
     ../include/libgeometry_ert/headers/geo_region.h \

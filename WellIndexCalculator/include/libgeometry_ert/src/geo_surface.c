@@ -20,11 +20,11 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/geometry/geo_pointset.h>
-#include <ert/geometry/geo_surface.h>
+#include <../include/libgeometry_ert/headers/geo_pointset.h>
+#include <../include/libgeometry_ert/headers/geo_surface.h>
 
 #define __PI                3.14159265
 #define GEO_SURFACE_TYPE_ID 111743

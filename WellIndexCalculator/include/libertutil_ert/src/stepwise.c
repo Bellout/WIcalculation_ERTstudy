@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <ert/util/util.h>
-#include <ert/util/matrix.h>
-#include <ert/util/regression.h>
-#include <ert/util/stepwise.h>
-#include <ert/util/bool_vector.h>
-#include <ert/util/double_vector.h>
-
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/matrix.h>
+#include <../include/libertutil_ert/headers/regression.h>
+#include <../include/libertutil_ert/headers/stepwise.h>
+#include "../include/libertutil_ert/headers/bool_vector.h"
+#include "../include/libertutil_ert/headers/double_vector.h"
 
 #define STEPWISE_TYPE_ID 8722106
 
@@ -178,14 +176,15 @@ static double stepwise_test_var( stepwise_type * stepwise , int test_var , int b
 
     /*True Cross-Validation: */
     int * randperms     = util_calloc( nsample , sizeof * randperms );
-    for (int i=0; i < nsample; i++)
+    int i;
+    for (i=0; i < nsample; i++)
       randperms[i] = i;
     
     /* Randomly perturb ensemble indices */
     rng_shuffle_int( stepwise->rng , randperms , nsample );
     
-
-    for (int iblock = 0; iblock < blocks; iblock++) {
+    int iblock;
+    for (iblock = 0; iblock < blocks; iblock++) {
 
       int validation_start = iblock * block_size;
       int validation_end   = validation_start + block_size - 1;
@@ -208,7 +207,8 @@ static double stepwise_test_var( stepwise_type * stepwise , int test_var , int b
            calculation. 
         */
         if (blocks > 1) {                                      
-          for (int i = validation_start; i <= validation_end; i++) {
+          int i;
+          for (i = validation_start; i <= validation_end; i++) {
             bool_vector_iset( active_rows , randperms[i] , false );
           }
         }
@@ -262,7 +262,8 @@ void stepwise_estimate( stepwise_type * stepwise , double deltaR2_limit , int CV
 
 
   /*Reset beta*/
-  for (int i = 0; i < nvar; i++) {
+  int i;
+  for (i = 0; i < nvar; i++) {
     matrix_iset(stepwise->beta, i , 0 , 0.0);
   }
   
@@ -285,7 +286,8 @@ void stepwise_estimate( stepwise_type * stepwise , double deltaR2_limit , int CV
       resulting prediction error IF this particular variable is added;
       keep track of the variable which gives the lowest prediction error.
     */
-    for (int ivar = 0; ivar < nvar; ivar++) {
+    int ivar;
+    for (ivar = 0; ivar < nvar; ivar++) {
       if (!bool_vector_iget( stepwise->active_set , ivar)) {
         double newR2 = stepwise_test_var(stepwise , ivar , CV_blocks);
         if ((minR2 < 0) || (newR2 < minR2)) {
@@ -336,8 +338,9 @@ void stepwise_estimate( stepwise_type * stepwise , double deltaR2_limit , int CV
   }
 
   printf("Beta = ");
-  for (int i = 0; i < nvar; i++) {
-    printf(" %f ",matrix_iget(stepwise->beta,i,0));
+  int ii;
+  for (ii = 0; ii < nvar; ii++) {
+    printf(" %f ",matrix_iget(stepwise->beta,ii,0));
   }
 
 

@@ -32,14 +32,11 @@
 #define END_OPTIONS  REG_EXTENDED
 #endif
 
-#include <ert/util/util.h>
-#include <ert/util/subst_list.h>
-#include <ert/util/subst_func.h>
-#include <ert/util/template.h>
-#include <ert/util/stringlist.h>
-
-
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/subst_list.h>
+#include <../include/libertutil_ert/headers/subst_func.h>
+#include <../include/libertutil_ert/headers/template.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
 
 #define TEMPLATE_TYPE_ID 7781045
 

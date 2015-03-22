@@ -20,10 +20,9 @@
 #include <string.h>
 #include <stdio.h>
 
-#include <ert/util/util.h>
-#include <ert/util/node_data.h>
-#include <ert/util/node_ctype.h>
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/node_data.h>
+#include <../include/libertutil_ert/headers/node_ctype.h>
 
 /*
   Used to hold typed storage.

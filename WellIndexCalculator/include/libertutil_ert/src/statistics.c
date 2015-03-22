@@ -19,9 +19,9 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include <ert/util/util.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/statistics.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include "../include/libertutil_ert/headers/double_vector.h"
+#include "../include/libertutil_ert/headers/statistics.h"
 
 
 double statistics_mean( const double_vector_type * data_vector ) {

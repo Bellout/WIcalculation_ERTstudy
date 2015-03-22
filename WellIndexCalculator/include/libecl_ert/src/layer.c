@@ -17,10 +17,10 @@
 */
 #include <stdlib.h>
 
-#include <ert/util/type_macros.h>
-#include <ert/util/int_vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
-#include <ert/ecl/layer.h>
+#include <../include/libecl_ert/headers/layer.h>
 
 #define LAYER_TYPE_ID  55185409
 

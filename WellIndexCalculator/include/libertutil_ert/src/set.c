@@ -21,10 +21,9 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <ert/util/set.h>
-#include <ert/util/hash.h>
-#include <ert/util/util.h>
-
+#include <../include/libertutil_ert/headers/set.h>
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/util.h>
 
 struct set_struct {
   hash_type * key_hash;

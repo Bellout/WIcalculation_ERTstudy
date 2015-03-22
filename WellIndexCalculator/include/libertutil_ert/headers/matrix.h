@@ -22,11 +22,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <ert/util/rng.h>
-#include <ert/util/type_macros.h>
-#include <ert/util/bool_vector.h>
+#include <../include/libertutil_ert/headers/rng.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/bool_vector.h>
+
 #ifdef HAVE_THREAD_POOL
-#include <ert/util/thread_pool.h>
+#include <../include/libertutil_ert/headers/thread_pool.h>
 #endif
 
 #ifdef __cplusplus

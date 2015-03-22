@@ -26,8 +26,7 @@ extern "C" {
 
 /* Included here to get the HAVE_UTIL_ABORT symbol.*/
 
-#include <ert/util/util.h>  
-  
+#include <../include/libertutil_ert/headers/util.h>
 
   void  test_error_exit( const char * fmt , ...);
 

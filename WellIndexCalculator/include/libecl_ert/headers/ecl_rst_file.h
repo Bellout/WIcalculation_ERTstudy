@@ -20,7 +20,7 @@
 #ifndef __ECL_RST_FILE_H__
 #define __ECL_RST_FILE_H__
 
-#include <ert/ecl/ecl_rsthead.h>
+#include <../include/libecl_ert/headers/ecl_rsthead.h>
 
 #ifdef __cplusplus
 extern "C" {

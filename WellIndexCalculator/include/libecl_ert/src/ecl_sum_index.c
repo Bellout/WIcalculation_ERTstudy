@@ -16,7 +16,9 @@
    for more details. 
 */
 
-#include <ert/ecl/ecl_sum_index.h>
+#include <../include/libecl_ert/headers/ecl_sum_index.h>
+
+#include <../include/libertutil_ert/headers/hash.h>
 
 /* 
    This file contains all the internalized information from parsing a

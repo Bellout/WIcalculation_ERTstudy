@@ -21,9 +21,9 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/point.h>
+#include <../include/libecl_ert/headers/point.h>
 
 
 void point_mapaxes_transform( point_type * p , const double origo[2], const double unit_x[2] , const double unit_y[2]) {

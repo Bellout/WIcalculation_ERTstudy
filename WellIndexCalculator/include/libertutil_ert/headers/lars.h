@@ -26,7 +26,7 @@ extern "C" {
 
 #include <stdbool.h>
 
-#include <ert/util/matrix.h>
+#include <../include/libertutil_ert/headers/matrix.h>
 
 typedef struct lars_struct lars_type;
 

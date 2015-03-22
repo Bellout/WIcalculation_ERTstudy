@@ -22,7 +22,7 @@
 extern "C" {
 #endif
 
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
 #define ECL_RFT_CELL_INVALID_VALUE -1
 

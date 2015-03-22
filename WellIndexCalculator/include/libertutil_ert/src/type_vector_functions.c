@@ -18,11 +18,11 @@
 
 #include <stdbool.h>
 
-#include <ert/util/int_vector.h>
-#include <ert/util/bool_vector.h>
-#include <ert/util/double_vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/bool_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
 
-#include <ert/util/type_vector_functions.h>
+#include <../include/libertutil_ert/headers/type_vector_functions.h>
 
 
 int_vector_type * bool_vector_alloc_active_list( const bool_vector_type * mask ) {

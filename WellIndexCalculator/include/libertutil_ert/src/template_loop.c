@@ -16,8 +16,8 @@
    for more details. 
 */
 
-#include <ert/util/parser.h>
-#include <ert/util/stringlist.h>
+#include < ../include/libertutil_ert/headers/parser.h>
+#include < ../include/libertutil_ert/headers/stringlist.h>
 
 #define DOLLAR  '$'
 /*

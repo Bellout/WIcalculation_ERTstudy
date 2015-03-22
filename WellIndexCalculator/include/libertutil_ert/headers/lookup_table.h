@@ -23,7 +23,7 @@
 extern "C" {
 #endif
 
-#include <ert/util/double_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
 
 typedef struct lookup_table_struct lookup_table_type;
 

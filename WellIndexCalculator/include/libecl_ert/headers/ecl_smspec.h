@@ -26,10 +26,10 @@ extern "C" {
 #include <time.h>
 #include <stdbool.h>
 
-#include <ert/util/float_vector.h>
-#include <ert/util/stringlist.h>
+#include <../include/libertutil_ert/headers/float_vector.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
 
-#include <ert/ecl/smspec_node.h>
+#include <../include/libecl_ert/headers/smspec_node.h>
 
 typedef struct ecl_smspec_struct ecl_smspec_type; 
 

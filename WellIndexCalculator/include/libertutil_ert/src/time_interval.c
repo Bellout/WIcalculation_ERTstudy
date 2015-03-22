@@ -18,8 +18,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/time_interval.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/time_interval.h>
 
 #define TIME_INTERVAL_EMPTY   (time_t) -1
 #define TIME_T_MAX            (time_t) ((1UL << (( sizeof(time_t) << 3) -1 )) -1 ) 

@@ -23,13 +23,13 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#include <ert/util/util.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_kw_magic.h>
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_rft_cell.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_rft_cell.h>
 
 
 #define ECL_RFT_CELL_TYPE_ID 99164012

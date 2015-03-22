@@ -21,9 +21,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <ert/util/util.h>
-#include <ert/util/menu.h>
-#include <ert/util/vector.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/menu.h>
+#include <../include/libertutil_ert/headers/vector.h>
 
 /**
    This file implements a simple character based menu system. The menu

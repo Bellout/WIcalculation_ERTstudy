@@ -21,9 +21,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/arg_pack.h>
-#include <ert/util/node_ctype.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/arg_pack.h>
+#include <../include/libertutil_ert/headers/node_ctype.h>
 
 
 /**

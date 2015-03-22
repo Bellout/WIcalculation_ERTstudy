@@ -21,13 +21,14 @@
 #include <stdbool.h>
 #include <math.h>
 
-#include <ert/util/util.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/matrix.h>
-#include <ert/util/matrix_blas.h>
-#include <ert/util/matrix_lapack.h>
-#include <ert/util/regression.h>
-#include <ert/util/lars.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/matrix.h>
+#include <../include/libertutil_ert/headers/matrix_blas.h>
+#include <../include/libertutil_ert/headers/matrix_lapack.h>
+#include <../include/libertutil_ert/headers/regression.h>
+#include <../include/libertutil_ert/headers/lars.h>
 
 #define LARS_TYPE_ID 77125439
 

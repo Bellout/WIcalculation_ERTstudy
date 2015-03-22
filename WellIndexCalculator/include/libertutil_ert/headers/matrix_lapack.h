@@ -18,7 +18,7 @@
 #ifndef __MATRIX_LAPACK_H__
 #define __MATRIX_LAPACK_H__
 
-#include <ert/util/matrix.h>
+#include <../include/libertutil_ert/headers/matrix.h>
 
 #ifdef __cplusplus
 extern "C" {

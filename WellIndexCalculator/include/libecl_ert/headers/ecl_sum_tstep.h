@@ -23,10 +23,10 @@
 extern "C" {
 #endif
 
-#include <ert/util/int_vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
-#include <ert/ecl/ecl_smspec.h>
-#include <ert/ecl/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_smspec.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
 
 typedef struct ecl_sum_tstep_struct ecl_sum_tstep_type;
 

@@ -23,10 +23,9 @@
 #include <errno.h>
 #include <time.h>
 
-#include <ert/util/ssize_t.h>
-#include <ert/util/util.h>
-#include <ert/util/buffer.h>
-
+#include <../include/libertutil_ert/headers/ssize_t.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/buffer.h>
 
 
 /**

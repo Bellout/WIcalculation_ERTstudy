@@ -23,8 +23,8 @@
 #include <pthread.h>
 #include <unistd.h>
 
-#include <ert/util/thread_pool.h>
-#include <ert/util/util.h>
+#include < ../include/libertutil_ert/headers/thread_pool.h>
+#include < ../include/libertutil_ert/headers/util.h>
 
 /**
    This file implements a small thread_pool object based on

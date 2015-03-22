@@ -22,16 +22,14 @@
 extern "C" {
 #endif
 
-#include <ert/util/int_vector.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
-#include <ert/ecl/ecl_grid.h>
-#include <ert/ecl/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_grid.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
 
 
-
-  
   typedef struct fault_block_struct  fault_block_type;
   
   void               fault_block_free__( void * arg);

@@ -18,13 +18,13 @@
 
 #include <stdlib.h>
 
-#include <ert/util/util.h>
-#include <ert/util/vector.h>  
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/vector.h>
 
-#include <ert/ecl/nnc_info.h>
-#include <ert/ecl/nnc_vector.h>
-#include <ert/ecl/ecl_kw_magic.h>
+#include "../include/libecl_ert/headers/nnc_info.h"
+#include "../include/libecl_ert/headers/nnc_vector.h"
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
 
 #define NNC_INFO_TYPE_ID 675415078
 

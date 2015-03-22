@@ -20,9 +20,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/geometry/geo_util.h>
+#include <../include/libgeometry_ert/headers/geo_util.h>
 
 
 

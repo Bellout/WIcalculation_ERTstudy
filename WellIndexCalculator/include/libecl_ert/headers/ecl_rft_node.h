@@ -23,8 +23,8 @@ extern "C" {
 #endif
 #include <stdbool.h>
 
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_rft_cell.h>
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_rft_cell.h>
 
 typedef enum { RFT     = 1 ,
                PLT     = 2 ,

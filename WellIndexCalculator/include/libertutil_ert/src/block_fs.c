@@ -27,12 +27,14 @@
 #include <time.h>
 #include <fnmatch.h>
 
-#include <ert/util/hash.h>
-#include <ert/util/util.h>
-#include <ert/util/block_fs.h>
-#include <ert/util/vector.h>
-#include <ert/util/buffer.h>
-#include <ert/util/long_vector.h>
+#include <sys/stat.h>
+
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/block_fs.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/buffer.h>
+#include <../include/libertutil_ert/headers/long_vector.h>
 
 
 #define MOUNT_MAP_MAGIC_INT  8861290
@@ -884,7 +886,8 @@ static void block_fs_fix_nodes( block_fs_type * block_fs , long_vector_type * of
     fsync( block_fs->data_fd );
     {
       char * key = NULL;
-      for (int inode = 0; inode < long_vector_size( offset_list ); inode++) {
+      int inode;
+      for (inode = 0; inode < long_vector_size( offset_list ); inode++) {
         bool new_node = false;
         long int node_offset = long_vector_iget( offset_list , inode );
         file_node_type * file_node;
@@ -1009,7 +1012,8 @@ static bool block_fs_load_index( block_fs_type * block_fs ) {
           int num_active_nodes = buffer_fread_int( buffer );
           hash_resize( block_fs->index , num_active_nodes * 2 + 64);
           
-          for (int i=0; i < num_active_nodes; i++) {
+          int i;
+          for (i=0; i < num_active_nodes; i++) {
             const char * filename = buffer_fread_string( buffer );
             file_node_type * file_node = file_node_index_buffer_fread_alloc( buffer );
             block_fs_install_node( block_fs , file_node);
@@ -1020,7 +1024,8 @@ static bool block_fs_load_index( block_fs_type * block_fs ) {
         /*2: Loading all the free nodes. */
         {
           int num_free_nodes = buffer_fread_int( buffer );
-          for (int i=0; i < num_free_nodes; i++) {
+          int i;
+          for (i=0; i < num_free_nodes; i++) {
             file_node_type * file_node = file_node_index_buffer_fread_alloc( buffer );
             block_fs_install_node( block_fs , file_node);
             block_fs_insert_free_node(block_fs , file_node);

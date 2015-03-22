@@ -22,11 +22,11 @@
 #include <stdio.h>
 #include <math.h>
 
-#include <ert/util/thread_pool.h>
-#include <ert/util/util.h>
-#include <ert/util/matrix.h>
-#include <ert/util/arg_pack.h>
-#include <ert/util/rng.h>
+#include <../include/libertutil_ert/headers/thread_pool.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/matrix.h>
+#include <../include/libertutil_ert/headers/arg_pack.h>
+#include <../include/libertutil_ert/headers/rng.h>
 
 /**
    This is V E R Y  S I M P L E matrix implementation. It is not

@@ -18,12 +18,12 @@
 
 #include <ctype.h>
 
-#include <ert/util/util.h>
-#include <ert/util/parser.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/bool_vector.h>
-#include <ert/util/string_util.h>
-#include <ert/util/type_vector_functions.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/parser.h>
+#include "../include/libertutil_ert/headers/bool_vector.h"
+#include "../include/libertutil_ert/headers/int_vector.h"
+#include <../include/libertutil_ert/headers/string_util.h>
+#include "../include/libertutil_ert/headers/type_vector_functions.h"
 
 /*****************************************************************/
 

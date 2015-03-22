@@ -12,6 +12,15 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
+    qDebug()<<argv[0];
+    qDebug()<<argv[1];
+    qDebug()<<argv[2];
+
+    qDebug()<<sizeof argv[0];
+
+    qDebug()<<"Start Fileio";
+    Reservoir Fileio(char argv[1]);
+
     qDebug()<<"hello world";
 
     return a.exec();

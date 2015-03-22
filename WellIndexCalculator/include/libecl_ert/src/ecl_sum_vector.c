@@ -16,16 +16,15 @@
   for more details.
 */
 #include <stdlib.h>
-#include <ert/ecl/ecl_sum_vector.h>
-#include <ert/ecl/ecl_sum.h>
-#include <ert/ecl/ecl_smspec.h>
+#include <../include/libecl_ert/headers/ecl_sum_vector.h>
+#include <../include/libecl_ert/headers/ecl_sum.h>
+#include <../include/libecl_ert/headers/ecl_smspec.h>
 
-#include <ert/util/util.h>
-#include <ert/util/vector.h>
-#include <ert/util/type_macros.h>
-#include <ert/util/int_vector.h>
-#include <ert/util/bool_vector.h>
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/bool_vector.h>
 
 #define ECL_SUM_VECTOR_TYPE_ID 8756667078
 

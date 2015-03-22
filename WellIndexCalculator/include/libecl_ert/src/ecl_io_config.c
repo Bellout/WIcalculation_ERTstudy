@@ -20,11 +20,10 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_io_config.h>
-#include <ert/ecl/ecl_util.h>
-
+#include <../include/libecl_ert/headers/ecl_io_config.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
 /**
    This file implements a pathetically small struct which is used to

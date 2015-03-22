@@ -25,7 +25,7 @@ extern "C" {
 #include <stdio.h>
 #include <stdbool.h>
 
-#include <ert/util/subst_func.h>
+#include <../include/libertutil_ert/headers/subst_func.h>
 
   typedef struct          subst_list_struct subst_list_type;
   bool                    subst_list_update_buffer( const subst_list_type * subst_list , buffer_type * buffer );

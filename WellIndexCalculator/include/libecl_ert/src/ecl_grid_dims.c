@@ -18,15 +18,15 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/vector.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/vector.h>
 
-#include <ert/ecl/ecl_grid_dims.h>
-#include <ert/ecl/ecl_util.h>
-#include <ert/ecl/fortio.h>
-#include <ert/ecl/ecl_endian_flip.h>
-#include <ert/ecl/ecl_kw_magic.h>
-#include <ert/ecl/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_grid_dims.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
+#include <../include/libecl_ert/headers/fortio.h>
+#include <../include/libecl_ert/headers/ecl_endian_flip.h>
+#include <../include/libecl_ert/headers/ecl_kw_magic.h>
+#include <../include/libecl_ert/headers/ecl_kw.h>
 
 
 struct ecl_grid_dims_struct {

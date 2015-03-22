@@ -23,11 +23,11 @@ extern "C" {
 #endif
 #include <stdbool.h>
 
-#include <ert/util/stringlist.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
 
-#include <ert/ecl/ecl_rft_node.h>
-#include <ert/util/vector.h>
-#include <ert/util/int_vector.h>
+#include <../include/libecl_ert/headers/ecl_rft_node.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
 typedef struct ecl_rft_file_struct ecl_rft_file_type;
 

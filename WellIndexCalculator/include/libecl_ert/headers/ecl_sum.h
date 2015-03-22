@@ -27,14 +27,14 @@ extern "C" {
 #include <stdbool.h>
 #include <time.h>
 
-#include <ert/util/stringlist.h>
-#include <ert/util/time_t_vector.h>
-#include <ert/util/double_vector.h>
-#include <ert/util/time_interval.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/time_t_vector.h>
+#include <../include/libertutil_ert/headers/double_vector.h>
+#include <../include/libertutil_ert/headers/time_interval.h>
 
-#include <ert/ecl/ecl_smspec.h>
-#include <ert/ecl/ecl_sum_tstep.h>
-#include <ert/ecl/smspec_node.h>
+#include <../include/libecl_ert/headers/ecl_smspec.h>
+#include <../include/libecl_ert/headers/ecl_sum_tstep.h>
+#include <../include/libecl_ert/headers/smspec_node.h>
 
 
   typedef struct {

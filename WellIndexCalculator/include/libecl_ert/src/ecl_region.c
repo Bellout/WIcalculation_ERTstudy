@@ -20,18 +20,18 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include <ert/util/int_vector.h>
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/geometry/geo_util.h>
-#include <ert/geometry/geo_polygon.h>
+#include <../include/libgeometry_ert/headers/geo_util.h>
+#include <../include/libgeometry_ert/headers/geo_polygon.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_grid.h>
-#include <ert/ecl/ecl_box.h>
-#include <ert/ecl/ecl_util.h>
-#include <ert/ecl/ecl_region.h>
 
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_grid.h>
+#include <../include/libecl_ert/headers/ecl_box.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
+#include <../include/libecl_ert/headers/ecl_region.h>
 
 /**
    This file implements a type called ecl_region which is a way to

@@ -20,11 +20,11 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/int_vector.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
-#include <ert/geometry/geo_pointset.h>
-#include <ert/geometry/geo_polygon.h>
+#include <../include/libgeometry_ert/headers/geo_pointset.h>
+#include <../include/libgeometry_ert/headers/geo_polygon.h>
 
 #ifndef __GEO_REGION_H__
 #define __GEO_REGION_H__

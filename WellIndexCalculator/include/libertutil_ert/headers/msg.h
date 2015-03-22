@@ -23,7 +23,7 @@ extern "C" {
 #endif
 #include <stdbool.h>
 
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
 
 typedef struct msg_struct msg_type;

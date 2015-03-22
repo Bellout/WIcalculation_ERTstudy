@@ -19,11 +19,10 @@
 #include <string.h>
 #include <ctype.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_util.h>
-
+#include <../include/libecl_ert/headers/ecl_kw.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
 /*
   This file is devoted to different routines for reading and writing

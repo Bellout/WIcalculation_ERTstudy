@@ -22,7 +22,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include <ert/ecl/ecl_sum.h>
+#include <../include/libecl_ert/headers/ecl_sum.h>
 
 typedef struct ecl_sum_vector_struct ecl_sum_vector_type;
 

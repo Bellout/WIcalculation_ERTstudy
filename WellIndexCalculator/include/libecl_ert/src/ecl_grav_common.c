@@ -21,13 +21,13 @@
 #include <stdbool.h>
 #include <math.h>
 
-#include <ert/util/util.h>
+#include <../include/libertutil_ert/headers/util.h>
 
-#include <ert/ecl/ecl_kw.h>
-#include <ert/ecl/ecl_file.h>
-#include <ert/ecl/ecl_region.h>
-#include <ert/ecl/ecl_grid_cache.h>
-#include <ert/ecl/ecl_kw_magic.h>
+#include "../include/libecl_ert/headers/ecl_kw.h"
+#include <../include/libecl_ert/headers/ecl_file.h>
+#include <../include/libecl_ert/headers/ecl_region.h>
+#include <../include/libecl_ert/headers/ecl_grid_cache.h>
+#include "../include/libecl_ert/headers/ecl_kw_magic.h"
 
 /*
   This file contains code which is common to both the ecl_grav

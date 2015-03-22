@@ -24,7 +24,7 @@ extern "C" {
 #include <stdarg.h>
 #include <stdbool.h>
 
-#include <ert/util/node_ctype.h>
+#include <../include/libertutil_ert/headers/node_ctype.h>
 
   typedef struct path_fmt_struct path_fmt_type;
   

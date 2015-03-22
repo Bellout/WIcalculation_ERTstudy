@@ -18,9 +18,9 @@
 
 #include <math.h>
 
-#include <ert/util/util.h>
-#include <ert/util/matrix.h>
-#include <ert/util/matrix_lapack.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/matrix.h>
+#include <../include/libertutil_ert/headers/matrix_lapack.h>
 
 #ifdef __cplusplus
 extern "C" {

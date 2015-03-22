@@ -22,12 +22,12 @@
 #include <ctype.h>
 #include <stdbool.h>
 
-#include <ert/util/util.h>
-#include <ert/util/hash.h>
-#include <ert/util/stringlist.h>
-#include <ert/util/parser.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/parser.h>
 
-#include <ert/ecl/ecl_util.h>
+#include <../include/libecl_ert/headers/ecl_util.h>
 
 
 /*****************************************************************/
@@ -340,17 +340,13 @@ ecl_file_enum ecl_util_inspect_extension(const char * ext , bool *_fmt_file, int
 }
 
 
-
-
-
 /** 
-  This function takes an eclipse filename as input - looks at the
-  extension, and uses that to determine the type of file. In addition
-  to the fundamental type, it is also determined whether the file is
-  formatted or not, and in the case of summary/restart files, which
-  report number this corresponds to.
-
-
+  This function takes an eclipse filename as input - 
+  looks at the extension, and uses that to determine 
+  the type of file. In addition to the fundamental 
+  type, it is also determined whether the file is
+  formatted or not, and in the case of summary/restart 
+  files, which report number this corresponds to.
 */
 
 
@@ -445,9 +441,11 @@ static const char * ecl_util_get_file_pattern( ecl_file_enum file_type , bool fm
 
 
 /**
-   Takes an ecl_file_enum variable and returns string with a
-   descriptive name of this file type.
+   Takes an ecl_file_enum variable and 
+   returns string with a descriptive 
+   name of this file type.
 */
+
 const char * ecl_util_file_type_name( ecl_file_enum file_type ) {
   switch (file_type) {
   case(ECL_OTHER_FILE):
@@ -495,12 +493,15 @@ const char * ecl_util_file_type_name( ecl_file_enum file_type ) {
 
 
 /**
-   This function takes a path, along with a filetype as input and
-   allocates a new string with the filename. If path == NULL, the
-   filename is allocated without a leading path component.
+   This function takes a path, along with 
+   a filetype as input and allocates a new 
+   string with the filename. If path == NULL, 
+   the filename is allocated without a leading 
+   path component.
 
-   If the flag 'must_exist' is set to true the function will check
-   with the filesystem if the file actually exists; if the file does
+   If the flag 'must_exist' is set to true the 
+   function will check with the filesystem if 
+   the file actually exists; if the file does
    not exist NULL is returned.
 */
 
@@ -607,9 +608,10 @@ char * ecl_util_alloc_exfilename(const char * path, const char * base , ecl_file
 
 
 /**
-   This function will first try if the 'fmt_file' file exists, and
-   then subsequently the !fmt_file version. If neither can be found it
-   will return NULL.
+   This function will first try if the 'fmt_file' 
+   file exists, and then subsequently the !fmt_file 
+   version. If neither can be found it will return 
+   NULL.
 */
 
 char * ecl_util_alloc_exfilename_anyfmt(const char * path, const char * base , ecl_file_enum file_type , bool fmt_file_first , int report_nr) {

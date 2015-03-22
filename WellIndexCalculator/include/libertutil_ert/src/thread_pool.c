@@ -16,7 +16,7 @@
    for more details. 
 */
 
-#include <ert/util/thread_pool.h>
+#include <../include/libertutil_ert/headers/thread_pool.h>
 
 #ifdef WITH_PTHREAD
 #include "thread_pool_posix.c"

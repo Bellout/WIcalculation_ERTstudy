@@ -19,12 +19,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include <ert/util/util.h>
-#include <ert/util/matrix.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/matrix.h>
 
-#include <ert/ecl/point.h>
-#include <ert/ecl/tetrahedron.h>
-
+#include <../include/libecl_ert/headers/point.h>
+#include <../include/libecl_ert/headers/tetrahedron.h>
 
 
 void tetrahedron_init( tetrahedron_type * tet , const point_type * p0 , const point_type * p1 , const point_type * p2 , const point_type * p3) {

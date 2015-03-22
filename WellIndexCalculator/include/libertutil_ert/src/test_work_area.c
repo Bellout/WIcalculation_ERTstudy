@@ -26,10 +26,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <ert/util/util.h>
-#include <ert/util/test_work_area.h>
-#include <ert/util/type_macros.h>
-#include <ert/util/rng.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/test_work_area.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/rng.h>
 
 /*
   This file implements a small work area implementation to be used for

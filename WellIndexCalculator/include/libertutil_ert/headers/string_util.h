@@ -21,8 +21,8 @@
 #ifdef __cplusplus 
 extern "C" {
 #endif
-#include <ert/util/int_vector.h>
-#include <ert/util/bool_vector.h>
+#include "../include/libertutil_ert/headers/int_vector.h"
+#include "../include/libertutil_ert/headers/bool_vector.h"
 
   bool               string_util_init_active_list( const char * range_string , int_vector_type * active_list );
   bool               string_util_update_active_list( const char * range_string , int_vector_type * active_list );

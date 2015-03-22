@@ -20,11 +20,11 @@
 #include <stdbool.h>
 #include <math.h>
 
-#include <ert/util/util.h>
-#include <ert/util/stringlist.h>
-#include <ert/util/subst_func.h>
-#include <ert/util/hash.h>
-#include <ert/util/rng.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/stringlist.h>
+#include <../include/libertutil_ert/headers/subst_func.h>
+#include <../include/libertutil_ert/headers/hash.h>
+#include <../include/libertutil_ert/headers/rng.h>
 
 
 #define SUBST_FUNC_TYPE_ID      646781

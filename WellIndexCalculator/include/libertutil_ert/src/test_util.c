@@ -24,9 +24,8 @@
 #include <string.h>
 #include <signal.h>
 
-#include <ert/util/util.h>
-#include <ert/util/test_util.h>
-
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/test_util.h>
 
 void test_error_exit( const char * fmt , ...) {
   char * s;

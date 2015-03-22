@@ -33,8 +33,8 @@
 #include <pthread.h>
 #endif
 
-#include <ert/util/util.h>
-#include <ert/util/log.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/log.h>
 
 struct log_struct {
   char             * filename;

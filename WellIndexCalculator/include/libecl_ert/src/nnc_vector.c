@@ -19,13 +19,12 @@
 
 #include <stdlib.h>
 
-#include <ert/util/util.h>
-#include <ert/util/vector.h>  
-#include <ert/util/type_macros.h>
-#include <ert/util/int_vector.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/vector.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
+#include <../include/libertutil_ert/headers/int_vector.h>
 
-#include <ert/ecl/nnc_vector.h>
-
+#include "../include/libecl_ert/headers/nnc_vector.h"
 
 
 #define NNC_VECTOR_TYPE_ID 875615078

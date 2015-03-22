@@ -22,7 +22,7 @@
 #ifdef __cplusplus 
 extern "C" {
 #endif
-#include <ert/util/type_macros.h>
+#include <../include/libertutil_ert/headers/type_macros.h>
 
 
 typedef struct struct_vector_struct struct_vector_type;

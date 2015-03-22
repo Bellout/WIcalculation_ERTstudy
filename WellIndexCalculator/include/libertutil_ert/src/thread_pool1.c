@@ -19,8 +19,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
-#include <thread_pool.h>
-#include <util.h>
+#include <../include/libertutil_ert/headers/thread_pool1.h>
+#include <../include/libertutil_ert/headers/util.h>
 
 struct thread_pool_struct {
   int        pool_size;

@@ -25,8 +25,8 @@
 #include <libgen.h>
 #include <string.h>
 
-#include <ert/util/util.h>
-#include <ert/util/latex.h>
+#include <../include/libertutil_ert/headers/util.h>
+#include <../include/libertutil_ert/headers/latex.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -197,7 +197,8 @@ static void latex_copy_target( latex_type * latex ) {
 void latex_cleanup( latex_type * latex ) {
   if (latex->in_place) {
     int num_extensions = sizeof( delete_extensions ) / sizeof( delete_extensions[0] );
-    for (int iext = 0; iext < num_extensions; iext++) {
+    int iext;
+    for (iext = 0; iext < num_extensions; iext++) {
       char * filename = util_alloc_filename( latex->run_path , latex->basename , delete_extensions[iext]);
       unlink(filename);
       free( filename );

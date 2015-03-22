@@ -15,6 +15,10 @@ public:
 
 private:
 
+    char * path;
+    char * eclbase;
+    char * egrid_file;
+    char * base;
 };
 
 #endif // FILEIO_H
