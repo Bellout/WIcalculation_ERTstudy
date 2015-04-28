@@ -5,8 +5,6 @@
 #include "Coordinate.h"
 #include "Plane.h"
 
-//namespace WellIndecCalculator
-//{
 class Plane;
 
 class Cell
@@ -21,5 +19,4 @@ private:
 
 };
 
-//} // namespace
 #endif // CELL_H

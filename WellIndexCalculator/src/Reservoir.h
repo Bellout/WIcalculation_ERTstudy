@@ -4,8 +4,6 @@
 
 #include "Cell.h"
 
-//namespace WellIndecCalculator
-//{
 class Cell;
 
 class Reservoir
@@ -14,12 +12,11 @@ public:
 
     Reservoir();
     ~Reservoir();
+    // other functions
 
 private:
     QVector<Cell*> Cells; // ...
 
 };
-
-//} // namespace
 
 #endif // RESERVOIR_H
